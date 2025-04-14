@@ -18,3 +18,13 @@ fun AppCompatActivity.showLoadingDialog(): AlertDialog {
     dialog.show()
     return dialog
 }
+
+//val prefs = getSharedPreferences("settings", Context.MODE_PRIVATE)
+//prefs.edit().putString("app_lang", "fr").apply()
+
+//override fun attachBaseContext(newBase: Context) {
+//    val prefs = newBase.getSharedPreferences("settings", Context.MODE_PRIVATE)
+//    val lang = prefs.getString("app_lang", "en") ?: "en"
+//    val context = LocaleHelper.setLocale(newBase, lang)
+//    super.attachBaseContext(context)
+//}
